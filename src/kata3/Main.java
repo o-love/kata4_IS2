@@ -12,11 +12,29 @@ import java.io.File;
 
 public class Main {
     public static void main(String[] args) {
-        Iterable<Email> entry = new EmailLoader(new FileLoader(new File("emails.txt"))).items();
-        entry.forEach(System.out::println);
+        new Main().executeAll();
+    }
 
-        Histogram<String> histogram = MailHistogramFactory.create(entry);
+    private Iterable<Email> entry;
+    private Histogram<String> histogram;
 
+    public void executeAll(){
+        this.getInput();
+
+        this.processInput();
+
+        this.produceOutput();
+    }
+
+    public void getInput() {
+        entry = new EmailLoader(new FileLoader(new File("emails.txt"))).items();
+    }
+
+    public void processInput() {
+        histogram = MailHistogramFactory.create(entry);
+    }
+
+    public void produceOutput() {
         SwingUtilities.invokeLater(() -> {
             HistogramDisplay histogramDisplay = new HistogramDisplay("HISTOGRAM", histogram);
             histogramDisplay.execute();

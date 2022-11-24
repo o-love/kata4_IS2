@@ -1,5 +1,7 @@
 package kata3.model.persistence.files;
 
+import kata3.model.persistence.Loader;
+
 import java.io.*;
 import java.util.Iterator;
 

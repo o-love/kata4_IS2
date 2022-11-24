@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e9808ee-149e-4f40-be56-95d941398f96" name="Changes" comment="Version 1 of kata4 final.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata3/model/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata3/model/MailHistogramFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata3/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/model/Histogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata3/HistogramDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/view/HistogramDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kata3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata3/files/EmailLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/model/persistence/files/EmailLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata3/files/FileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/model/persistence/files/FileLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kata3/files/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/model/persistence/files/Loader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata3/model/persistence/files/EmailLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/model/persistence/files/EmailLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata3/model/persistence/files/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/model/persistence/Loader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +82,7 @@
       <updated>1666164468001</updated>
       <workItem from="1666164471016" duration="4516000" />
       <workItem from="1667380992171" duration="3194000" />
-      <workItem from="1669279945417" duration="1234000" />
+      <workItem from="1669279945417" duration="2065000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1666164537739</created>
@@ -118,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667382777712</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Version 1 of kata4 final.">
+      <created>1669281207294</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669281207294</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

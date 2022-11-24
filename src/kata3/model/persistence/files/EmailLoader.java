@@ -1,6 +1,7 @@
 package kata3.model.persistence.files;
 
 import kata3.model.Email;
+import kata3.model.persistence.Loader;
 
 import java.util.Iterator;
 import java.util.function.Predicate;
