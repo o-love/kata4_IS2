@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e9808ee-149e-4f40-be56-95d941398f96" name="Changes" comment="Version 1 of kata4">
-      <change afterPath="$PROJECT_DIR$/emails.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata3/files/EmailLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata3/files/FileLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata3/files/Loader.java" afterDir="false" />
+    <list default="true" id="1e9808ee-149e-4f40-be56-95d941398f96" name="Changes" comment="Version 1 of kata4 final.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata3/model/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kata3/model/MailHistogramFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata3/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/model/Histogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata3/HistogramDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/view/HistogramDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kata3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata3/files/EmailLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/model/persistence/files/EmailLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata3/files/FileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/model/persistence/files/FileLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kata3/files/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kata3/model/persistence/files/Loader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -38,10 +43,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last.edited.regexp": "hello.hi@something.com",
-    "last_opened_file_path": "C:/Users/olabr/Documents/ULPGC/fifth_semester/IS2/Kata3/JFreeChart",
+    "last_opened_file_path": "C:/Users/olabr/OneDrive/Documents/ULPGC/fifth_semester/IS2/kata4_IS2",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -58,7 +64,7 @@
       <module name="Kata3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kata3.*" />
+          <option name="PATTERN" value="kata3.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,7 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1666164468001</updated>
       <workItem from="1666164471016" duration="4516000" />
-      <workItem from="1667380992171" duration="1764000" />
+      <workItem from="1667380992171" duration="3194000" />
+      <workItem from="1669279945417" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1666164537739</created>
@@ -104,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666167312299</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Version 1 of kata4">
+      <created>1667382777712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667382777712</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +140,7 @@
     <MESSAGE value="Setup done" />
     <MESSAGE value="Version 1" />
     <MESSAGE value="Version 1 of kata4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1 of kata4" />
+    <MESSAGE value="Version 1 of kata4 final." />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1 of kata4 final." />
   </component>
 </project>

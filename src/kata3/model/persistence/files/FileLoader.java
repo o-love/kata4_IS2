@@ -1,9 +1,9 @@
-package kata3.files;
+package kata3.model.persistence.files;
 
 import java.io.*;
 import java.util.Iterator;
 
-public class FileLoader implements Loader {
+public class FileLoader implements Loader<String> {
 
     private final File file;
 

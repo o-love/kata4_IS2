@@ -1,5 +1,6 @@
-package kata3;
+package kata3.view;
 
+import kata3.model.Histogram;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
